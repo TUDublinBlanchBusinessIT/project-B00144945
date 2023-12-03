@@ -1,10 +1,19 @@
-<HTML>
+<html>
+<head>
+    <title>Fitness App</title>
+</head>
 <body>
-    <form action="ProcessWorkout.php" method="POST">
-        Workout Name: <input type="text" name="workout_name"><br>
-        Duration: <input type="number" name="duration"><br>
-        Date: <input type="date" name="date"><br>
-        <input type="submit">
+    <h1>Workout Tracker</h1>
+    <form action="ProcessWorkout.php" method="post">
+        <label for="workout_name">Workout Name:</label><br>
+        <input type="text" id="workout_name" name="workout_name"><br>
+        <label for="duration">Duration (in minutes):</label><br>
+        <input type="number" id="duration" name="duration"><br>
+        <label for="date">Date:</label><br>
+        <input type="date" id="date" name="date"><br><br>
+        <input type="submit"> 
     </form>
 </body>
-</HTML>
+</html>
+
+

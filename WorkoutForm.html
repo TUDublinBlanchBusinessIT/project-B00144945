@@ -3,8 +3,14 @@
     <title>Fitness App</title>
 </head>
 <body>
-    <h1>Workout Tracker</h1>
-    <form action="ProcessWorkout.php" method="post">
+    
+	<h1>Personal Information</h1>
+	<form action="ProcessWorkout.php" method="POST"><br>
+	Firstname: <input type="text" name="fname"><br>
+	Surname: <input type="text" name="sname"><br>
+	Date of Birth: <input type="text" name="dob"><br>	
+	
+	<h2>Workout Tracker</h2>
         <label for="workout_name">Workout Name:</label><br>
         <input type="text" id="workout_name" name="workout_name"><br>
         <label for="duration">Duration (in minutes):</label><br>

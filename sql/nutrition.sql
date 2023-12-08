@@ -23,5 +23,9 @@ CREATE TABLE nutrition (
     FOREIGN KEY (workoutid) REFERENCES workouts(id)
 );
 
-INSERT INTO workouts (firstname, surname, dateofbirth, workout_name, duration, DATE) 
-VALUES ('Iarlaith', 'OCarroll', '2001-04-01', 'pull ups', 3, '2023-12-01');
+
+
+
+
+INSERT INTO workouts (firstname, surname, dateofbirth, workout_name, duration, date) VALUES ('Iarlaith', 'OCarroll', '2001-04-01', 'pull ups', '3', '2023-12-01');
+
